@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,15 @@
     <title>Areej</title>
 </head>
 
-<BODY>
+<body>
+    <style>
+        body {
+            background-image: url("BACKG.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
 
     <header>
         <a href="#" class="logo">profile</a>
@@ -31,10 +39,10 @@
             position: fixed;
             top: 0;
             left: 0;
-            z-index: 500;
+            z-index: 100;
             display: flex;
             align-items: center;
-            justify-content: space between 100px;
+            justify-content: space-between 50px;
             padding: 10px 20px;
         }
 
@@ -42,16 +50,16 @@
             text-decoration: none;
             color: #cb329e;
             text-transform: uppercase;
-            font-weight: 800;
-            font-size: 1.8em;
+            font-weight: 500;
+            font-size: 1.3em;
         }
 
         .navigation a {
             color: #cac9cb;
             text-decoration: none;
-            font-size: 1.1em;
-            font-weight: 500;
-            padding-left: 50px;
+            font-size: 0.85em;
+            font-weight: 200;
+            padding-left: 30px;
         }
 
         .navigation a:hover {
@@ -67,8 +75,9 @@
     <section class="main">
         <div>
             <h2>Hello, I'm Areej<br><span>Computer Science</span></h2>
-            <h3> I am a creative and enthusiastic person who is driven by a strong desire for continuous learning and development.
-                 I constantly strive to acquire knowledge and enhance my skills.</h3>
+            <h3> I am a creative and enthusiastic person who is driven by a strong desire for continuous learning and
+                development.
+                I constantly strive to acquire knowledge and enhance my skills.</h3>
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/areej-alnashri-a39887203"><i class="fab fa-linkedin"></i></a>
                 <a href="https://x.com/arewoom?s=21&t=jSkfde9241q5j33vCXBizQ"><i class="fa-brands fa-x-twitter"></i></a>
@@ -77,30 +86,25 @@
         </div>
 
     </section>
-    <style>
-        body {
-            background-image: url("BACKG.jpg");
-            background-size: 100%;
-            background-position: center;
-            background-attachment: fixed;
-        }
 
+    <style>
         .main {
             width: 100%;
             color: #cb329e;
-            top: 10;
+            top: 0;
             left: 0;
-            z-index: 10;
+            z-index: 5;
             display: flex;
-            min-height: 100vh;
+            min-height: 60vh;
+            margin-bottom: 10px;
             align-items: center;
         }
 
         .main h2 {
             color: #fff;
-            font-size: 1.4em;
-            font-weight: 500;
-
+            font-size: 1.2em;
+            font-weight: 300px;
+            margin-left: 0px;
         }
 
         .main h2 span {
@@ -114,15 +118,16 @@
 
         .main h3 {
             color: #fff;
-            font-size: 1.4em;
+            font-size: 1 em;
             font-weight: 500;
             height: 100%;
             letter-spacing: 1px;
-            margin: 5%;
+            margin: 20%;
             align-items: center;
             justify-content: center;
             margin-top: 30px;
             margin-bottom: 30px;
+            margin-left: 80px;
         }
 
 
@@ -147,9 +152,9 @@
         }
 
         .social-icons i {
-            font-size: 48px;
+            font-size: 35px;
             /* حجم الأيقونات بالبكسل */
-            margin-right: 20px;
+            margin-right: 10px;
             /* تباعد بين الأيقونات */
             color: rgb(236, 240, 243);
         }
@@ -160,11 +165,16 @@
     <section class="cards" id="LAST EXPERIENCE"><!--text-->
         <h2 class="title">LAST EXPERIENCE<i class="fa-solid fa-desktop"></i></h2>
         <p>Summer training in the Information Technology Department</p>
-<p>- Network and systems administration</p>
-<p>- Cybersecurity and protection</p>
-<p>- Hardware and software support and maintenance</p>
-<p>- Data analysis and statistical tool extraction</p>
-<p>- systems and technology in the workplace.</p>
+        <ul>
+            <li>-Network and Systems Administration</li>
+            <li>-Cybersecurity and Protection</li>
+            <li>-Hardware and Software Support and Maintenance</li>
+            <li>-Data Analysis and Statistical Tool Extraction</li>
+            <li>-Systems and Technology in the Workplace</li>
+        </ul>
+
+
+
 
         <div class="info" id="EDUCATION"><!--نص -->
 
@@ -173,7 +183,7 @@
             <p>Umm Al Qura University</p>
             <p>2020-2024</p>
         </div>
-        </div>
+
 
 
 
@@ -194,11 +204,7 @@
             <p>Analytical thinking</p>
             <p>Innovation</p>
             <p>Curiosity</p>
-
         </div>
-
-
-
 
     </section>
 
@@ -226,12 +232,24 @@
         .cards p {
             color: #fff;
             font-size: 1em;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+
+        .cards li {
+            color: #fff;
+            font-size: 1em;
             font-weight: 200;
             display: flex;
             align-items: center;
             justify-content: center;
-
+            margin-right: 10px;
+            /* إضافة مسافة عنصرية من اليمين */
         }
+
 
         .cards h3 {
 
@@ -263,6 +281,6 @@
             justify-content: center;
         }
     </style>
-</BODY>
+</body>
 
 </HTML>
